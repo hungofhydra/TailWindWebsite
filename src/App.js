@@ -5,14 +5,13 @@ import Support from "./components/Support";
 import AllInOne from "./components/AllInOne";
 
 function App() {
-
   return (
     <>
-      <Navbar/>
-      <Hero/>
-      <About/>
-      <Support/>
-      <AllInOne/>
+      <Navbar />
+      <Hero />
+      <About />
+      <Support />
+      <AllInOne />
     </>
   );
 }
