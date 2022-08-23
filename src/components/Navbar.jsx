@@ -1,6 +1,6 @@
-import React from "react";
-import { MenuIcon, XIcon } from "@heroicons/react/outline";
-import { useState } from "react";
+import React from 'react';
+import { MenuIcon, XIcon } from '@heroicons/react/outline';
+import { useState } from 'react';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -30,7 +30,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <ul className={!nav ? "hidden" : "absolute bg-zinc-200 w-full px-8"}>
+      <ul className={!nav ? 'hidden' : 'absolute bg-zinc-200 w-full px-8'}>
         <li className="border-b-2 border-zinc-300 w-full">Home</li>
         <li className="border-b-2 border-zinc-300 w-full">About</li>
         <li className="border-b-2 border-zinc-300 w-full">Support</li>

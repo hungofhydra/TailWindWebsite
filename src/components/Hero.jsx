@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
 import {
   CloudUploadIcon,
   DatabaseIcon,
   PaperAirplaneIcon,
   ServerIcon,
-} from "@heroicons/react/solid";
+} from '@heroicons/react/solid';
 
-import bgImg from "../assets/cyber-bg.png";
+import bgImg from '../assets/cyber-bg.png';
 
 const Hero = () => {
   return (
@@ -28,10 +28,10 @@ const Hero = () => {
 
       <div
         className="absolute flex flex-col py-8 md:min-w-[760px] bottom-[3%]
-            mx-1 md:left-1/2 transform md:-translate-x-1/2 bg-zinc-200
+            mx-auto md:left-1/2 transform md:-translate-x-1/2 bg-zinc-200
             border border-slate-300 rounded-xl text-center shadow-xl"
       >
-        <p>Data Services</p>
+        <p className="text-2xl relative top-[-20px]">Data Services</p>
         <div className="flex flex-row justify-between flex-wrap px-4">
           <p className="flex px-4 py-2 text-slate-500">
             <CloudUploadIcon className="h-6 text-indigo-600" /> App Security
