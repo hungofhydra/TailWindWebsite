@@ -1,5 +1,5 @@
-import React from "react";
-import { CheckIcon } from "@heroicons/react/outline";
+import React from 'react';
+import { CheckIcon } from '@heroicons/react/outline';
 
 const AllInOne = () => {
   return (
@@ -12,7 +12,7 @@ const AllInOne = () => {
           of the Internet’s most secure cloud and communication providers.
         </p>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 pt-4">
+        <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-4 pt-4">
           <div className="flex">
             <div>
               <CheckIcon className="w-7 mr-4 text-green-600" />
